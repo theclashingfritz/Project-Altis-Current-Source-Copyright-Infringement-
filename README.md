@@ -1,3 +1,19 @@
+![logo](https://projectaltis.com/_assets/_img/logo.png)
+
+# Project Altis
+Project Altis is a private server for Disney's now defunct MMO-RPG, Toontown Online.
+
+This source code is the current production build and is in use illegaly currently.
+
+This is now going public and archived due to a pending lawsuit against the Project Altis Team.
+
+You are more than welcome to use any source code from this repository under the conditions of it's License.
+
+  1. A copy of the license must be present and the works must be under Apache 2.0
+  2. A list of changes must be listed.
+  3. A note in regards to the usage of this repository must be noted.
+
+
 <p align="center"> 
 <a href="https://projectaltis.com"><img src="https://projectaltis.com/_assets/_img/logo.png" alt="logo"></a>
 </p>
