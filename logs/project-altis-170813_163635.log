@@ -1,0 +1,91 @@
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+Preloading suits...
+Preloading Toon heads...
+Preloading avatars...
+{402000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x7f9bfb13a368>, 407000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x7f9bfb13a248>, 409000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x7f9bfb13a680>, 410000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x7f9bfb218b48>, 404000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x7f9bfb13a5f0>, 406000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x7f9bfb13a560>, 408000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x7f9bfb13a440>, 401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x7f9bfb13a200>, 403000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x7f9bfb13a290>, 405000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x7f9bfb13a4d0>}
+NodePath.iPosHpr() is deprecated.
+0
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_4/dna/storage_TT.pdna
+Reading DNA file... phase_4/dna/storage_TT_sz.pdna
+Reading DNA file... phase_4/dna/toontown_central_sz.pdna
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+Regular-->day
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+__handleAvatarChooserDone: 100000127, 'Dubito', ('xll', 'ls', 'l', 'm', (0.3607843137254902, 0.4196078431372549, 0.7529411764705882, 1.0), (1.0, 1.0, 1.0, 1.0), (0.3607843137254902, 0.4196078431372549, 0.7529411764705882, 1.0), (0.3607843137254902, 0.4196078431372549, 0.7529411764705882, 1.0), 116, 4, 103, 6, 58, 5), 0
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+69
+[49, 49, 49, 49, 49]
+[0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0]
+[49, 49, 49, 49, 49]
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+[0, 0, 0, 0, 0]
+Battle Event localtoon-battle-event-3
+Traceback (most recent call last):
+  File "otp/distributed/ConnectionRepository_override.py", line 545, in readerPollUntilEmpty
+    while self.readerPollOnce():
+  File "otp/distributed/ConnectionRepository_override.py", line 552, in readerPollOnce
+    self.handleDatagram(self.private__di)
+  File "otp/distributed/OTPClientRepository.py", line 1855, in handleDatagram
+    self.handler(msgType, di)
+  File "toontown/distributed/ToontownClientRepository.py", line 586, in handleCloseShard
+    self.handleMessageType(msgType, di)
+  File "otp/distributed/OTPClientRepository.py", line 1743, in handleMessageType
+    self.handleDisable(di)
+  File "otp/distributed/OTPClientRepository.py", line 2023, in handleDisable
+    self.disableDoId(doId, ownerView)
+  File "otp/distributed/ClientRepositoryBaseOR.py", line 374, in disableDoId
+    cached = cache.cache(distObj)
+  File "/usr/share/panda3d/direct/distributed/CRCache.py", line 57, in cache
+    assert self.checkCache()
+  File "/usr/share/panda3d/direct/distributed/CRCache.py", line 128, in checkCache
+    assert not obj.isEmpty() and obj.getTopNode() != render.node()
+AssertionError
+Traceback (most recent call last):
+  File "otp/otpbase/OTPBase.py", line 235, in run
+    taskMgr.run()
+  File "/usr/share/panda3d/direct/task/Task.py", line 517, in run
+    self.step()
+  File "/usr/share/panda3d/direct/task/Task.py", line 471, in step
+    self.mgr.poll()
+  File "otp/distributed/ConnectionRepository_override.py", line 545, in readerPollUntilEmpty
+    while self.readerPollOnce():
+  File "otp/distributed/ConnectionRepository_override.py", line 552, in readerPollOnce
+    self.handleDatagram(self.private__di)
+  File "otp/distributed/OTPClientRepository.py", line 1855, in handleDatagram
+    self.handler(msgType, di)
+  File "toontown/distributed/ToontownClientRepository.py", line 586, in handleCloseShard
+    self.handleMessageType(msgType, di)
+  File "otp/distributed/OTPClientRepository.py", line 1743, in handleMessageType
+    self.handleDisable(di)
+  File "otp/distributed/OTPClientRepository.py", line 2023, in handleDisable
+    self.disableDoId(doId, ownerView)
+  File "otp/distributed/ClientRepositoryBaseOR.py", line 374, in disableDoId
+    cached = cache.cache(distObj)
+  File "/usr/share/panda3d/direct/distributed/CRCache.py", line 57, in cache
+    assert self.checkCache()
+  File "/usr/share/panda3d/direct/distributed/CRCache.py", line 128, in checkCache
+    assert not obj.isEmpty() and obj.getTopNode() != render.node()
+AssertionError

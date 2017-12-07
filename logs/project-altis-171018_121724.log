@@ -1,0 +1,9 @@
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+Preloading suits...
+Preloading Toon heads...
+Preloading avatars...
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x7f3655d6c368>, 407000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x7f3655d6c4d0>, 409000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x7f3655d6c320>, 410000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x7f3655d5fb00>, 402000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x7f3655d6c518>, 404000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x7f3655d6c248>, 406000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x7f3655d6c5f0>, 408000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x7f3655d6c290>, 403000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x7f3655d6c488>, 405000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x7f3655d6c3f8>}
+* interrupt by keyboard

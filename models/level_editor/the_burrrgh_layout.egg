@@ -1,0 +1,46 @@
+<CoordinateSystem> { Z-Up }
+
+<Comment> {
+  "bam2egg -o models/level_editor/the_burrrgh_layout.egg models/level_editor/the_burrrgh_layout.bam"
+}
+<Texture> 4map {
+  "/home/luke/Documents/Development/resources/models/maps/4map.rgb"
+  <Scalar> format { rgb }
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<VertexPool> the_burrrgh_layout.egg {
+  <Vertex> 0 {
+    -249.50700378418 -250.550994873047 0
+    <UV> { 0 0 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 1 {
+    476.171997070312 -250.550994873047 0
+    <UV> { 0.392259001731873 0 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 2 {
+    -249.50700378418 421.539001464844 0
+    <UV> { 0 0.560006976127625 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 3 {
+    476.171997070312 421.539001464844 0
+    <UV> { 0.392259001731873 0.560006976127625 }
+    <RGBA> { 1 1 1 1 }
+  }
+}
+<Group> donalds_dock_layout {
+  <Polygon> {
+    <TRef> { 4map }
+    <VertexRef> { 0 1 2 <Ref> { the_burrrgh_layout.egg } }
+  }
+  <Polygon> {
+    <TRef> { 4map }
+    <VertexRef> { 2 1 3 <Ref> { the_burrrgh_layout.egg } }
+  }
+}

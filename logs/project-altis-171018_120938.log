@@ -1,0 +1,23 @@
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+Preloading suits...
+Preloading Toon heads...
+Preloading avatars...
+direct.gui.DirectGuiBase:1031, direct.gui.DirectFrame:57, toontown.toontowngui.ToontownLoadingScreen:30, toontown.toonbase.ToontownLoader:18, NameError: global name 'base' is not defined
+ErrorHandler: Unable to load system information for advanced reporting.
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/runpy.py", line 174, in _run_module_as_main
+    "__main__", fname, loader, pkg_name)
+  File "/usr/lib/python2.7/runpy.py", line 72, in _run_code
+    exec code in run_globals
+  File "/home/luke/Documents/Development/Altis/toontown/toonbase/ClientStartDist.py", line 26, in <module>
+    import toontown.toonbase.DCImporter
+  File "toontown/toonbase/DCImporter.py", line 4048, in <module>
+    import toontown.toonbase.ClientStart
+  File "toontown/toonbase/ClientStart.py", line 450, in <module>
+    ErrorHandler = ErrorHandler.ErrorHandler()
+  File "toontown/toonbase/ErrorHandler.py", line 18, in __init__
+    'CPU_HOSTNAME': self.sysinfo.get('Host Name', 'UNDEFINED'),
+AttributeError: 'NoneType' object has no attribute 'get'

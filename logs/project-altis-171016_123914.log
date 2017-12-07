@@ -1,0 +1,12 @@
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/runpy.py", line 174, in _run_module_as_main
+    "__main__", fname, loader, pkg_name)
+  File "/usr/lib/python2.7/runpy.py", line 72, in _run_code
+    exec code in run_globals
+  File "/home/luke/Documents/Development/Altis/toontown/toonbase/ClientStart.py", line 333, in <module>
+    backgroundNodePath = aspect2d.attachNewNode(backgroundNode, 0)
+NameError: name 'aspect2d' is not defined

@@ -1,0 +1,34 @@
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+Preloading suits...
+Preloading Toon heads...
+Preloading avatars...
+{402000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x7fd9bc136368>, 407000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x7fd9bc136248>, 409000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x7fd9bc136680>, 410000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x7fd9d42e1cb0>, 404000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x7fd9bc1365f0>, 406000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x7fd9bc136560>, 408000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x7fd9bc136440>, 401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x7fd9bc136200>, 403000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x7fd9bc136290>, 405000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x7fd9bc1364d0>}
+__handleAvatarChooserDone: 100000127, 'Dubito', ('xll', 'ls', 'l', 'm', (0.3607843137254902, 0.4196078431372549, 0.7529411764705882, 1.0), (1.0, 1.0, 1.0, 1.0), (0.3607843137254902, 0.4196078431372549, 0.7529411764705882, 1.0), (0.3607843137254902, 0.4196078431372549, 0.7529411764705882, 1.0), 116, 4, 103, 6, 58, 5), 0
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_6/dna/storage_DD.pdna
+Reading DNA file... phase_6/dna/storage_DD_sz.pdna
+Reading DNA file... phase_6/dna/donalds_dock_sz.pdna
+DNALandmarkBuilding sb8:toon_landmark_DD_clothes_shop_DNARoot did not find **/*suit_building_origin
+DNALandmarkBuilding sb7:toon_landmark_hqDD_SZ_DNARoot did not find **/*suit_building_origin
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+Regular-->day
+69
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+* interrupt by keyboard

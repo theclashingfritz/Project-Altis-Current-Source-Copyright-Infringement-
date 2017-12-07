@@ -1,0 +1,24 @@
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/runpy.py", line 174, in _run_module_as_main
+    "__main__", fname, loader, pkg_name)
+  File "/usr/lib/python2.7/runpy.py", line 72, in _run_code
+    exec code in run_globals
+  File "/home/luke/Documents/Development/Altis/toontown/toonbase/ClientStart.py", line 323, in <module>
+    ToonBase.ToonBase()
+  File "toontown/toonbase/ToonBase.py", line 169, in __init__
+    self.loader = ToontownLoader.ToontownLoader(self)
+  File "toontown/toonbase/ToontownLoader.py", line 15, in __init__
+    self.loadingScreen = ToontownLoadingScreen.ToontownLoadingScreen()
+  File "toontown/toontowngui/ToontownLoadingScreen.py", line 21, in __init__
+    scale = (logoScale * 2.0, 1, logoScale))
+  File "/usr/local/lib/python2.7/dist-packages/direct/gui/OnscreenImage.py", line 54, in __init__
+    self.setImage(image, parent = parent, sort = sort)
+  File "/usr/local/lib/python2.7/dist-packages/direct/gui/OnscreenImage.py", line 111, in setImage
+    tex = loader.loadTexture(image)
+  File "/usr/local/lib/python2.7/dist-packages/direct/showbase/Loader.py", line 616, in loadTexture
+    texture = TexturePool.loadTexture(texturePath, 0, readMipmaps, loaderOptions)
+KeyboardInterrupt

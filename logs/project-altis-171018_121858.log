@@ -1,0 +1,17 @@
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+Preloading suits...
+Preloading Toon heads...
+Preloading avatars...
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x7fa79e381b48>}
+NodePath.iPosHpr() is deprecated.
+0
+Reading DNA file... phase_3.5/dna/storage_tutorial.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_3.5/dna/tutorial_street.pdna
+DNALandmarkBuilding sb1:toon_landmark_hqTT_DNARoot did not find **/*suit_building_origin
+Reading DNA file... phase_3.5/dna/tutorial_street.pdna
+DNALandmarkBuilding sb1:toon_landmark_hqTT_DNARoot did not find **/*suit_building_origin
+* interrupt by keyboard

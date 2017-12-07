@@ -1,0 +1,24 @@
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/runpy.py", line 174, in _run_module_as_main
+    "__main__", fname, loader, pkg_name)
+  File "/usr/lib/python2.7/runpy.py", line 72, in _run_code
+    exec code in run_globals
+  File "/home/luke/Documents/Development/Altis/toontown/toonbase/ClientStart.py", line 415, in <module>
+    from toontown.distributed import ToontownClientRepository
+  File "toontown/distributed/ToontownClientRepository.py", line 23, in <module>
+    from otp.distributed import OTPClientRepository
+  File "otp/distributed/OTPClientRepository.py", line 11, in <module>
+    from otp.distributed.ClientRepositoryBaseOR import ClientRepositoryBaseOR as ClientRepositoryBase
+  File "otp/distributed/ClientRepositoryBaseOR.py", line 12, in <module>
+    from toontown.toonbase.DCImporter import *
+  File "toontown/toonbase/DCImporter.py", line 4038, in <module>
+    import toontown.toonbase.ClientStart
+  File "toontown/toonbase/ClientStart.py", line 321, in <module>
+    ToonBase.ToonBase()
+  File "toontown/toonbase/ToonBase.py", line 41, in __init__
+    OTPBase.OTPBase.__init__(self)
+  File "otp/otpbase/OTPBase.py", line 16, in __init__
+    ShowBase.__init__(self, windowType = windowType)
+  File "/usr/share/panda3d/direct/showbase/ShowBase.py", line 353, in __init__
+    raise Exception("Attempt to spawn multiple ShowBase instances!")
+Exception: Attempt to spawn multiple ShowBase instances!

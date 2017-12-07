@@ -1,0 +1,46 @@
+<CoordinateSystem> { Z-Up }
+
+<Comment> {
+  "bam2egg -o models/level_editor/minnies_melody_land_layout.egg models/level_editor/minnies_melody_land_layout.bam"
+}
+<Texture> 4map {
+  "/home/luke/Documents/Development/resources/models/maps/4map.rgb"
+  <Scalar> format { rgb }
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<VertexPool> minnies_melody_land_layout.egg {
+  <Vertex> 0 {
+    -527.133972167969 -248.932998657227 0
+    <UV> { 0.336598992347717 0 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 1 {
+    700.158996582031 -248.932998657227 0
+    <UV> { 1 0 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 2 {
+    -527.133972167969 579.851013183594 0
+    <UV> { 0.336598992347717 0.690567970275879 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 3 {
+    700.158996582031 579.851013183594 0
+    <UV> { 1 0.690567970275879 }
+    <RGBA> { 1 1 1 1 }
+  }
+}
+<Group> donalds_dock_layout {
+  <Polygon> {
+    <TRef> { 4map }
+    <VertexRef> { 0 1 2 <Ref> { minnies_melody_land_layout.egg } }
+  }
+  <Polygon> {
+    <TRef> { 4map }
+    <VertexRef> { 2 1 3 <Ref> { minnies_melody_land_layout.egg } }
+  }
+}

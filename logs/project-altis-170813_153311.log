@@ -1,0 +1,20 @@
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/runpy.py", line 174, in _run_module_as_main
+    "__main__", fname, loader, pkg_name)
+  File "/usr/lib/python2.7/runpy.py", line 72, in _run_code
+    exec code in run_globals
+  File "/home/luke/Documents/Development/Altis/toontown/toonbase/ClientStart.py", line 321, in <module>
+    ToonBase.ToonBase()
+  File "toontown/toonbase/ToonBase.py", line 169, in __init__
+    self.loader = ToontownLoader.ToontownLoader(self)
+  File "toontown/toonbase/ToontownLoader.py", line 15, in __init__
+    self.loadingScreen = ToontownLoadingScreen.ToontownLoadingScreen()
+  File "toontown/toontowngui/ToontownLoadingScreen.py", line 15, in __init__
+    self.gui = loader.loadModel('phase_3/models/gui/progress-background.bam')
+  File "/usr/share/panda3d/direct/showbase/Loader.py", line 170, in loadModel
+    raise IOError(message)
+IOError: Could not load model file(s): ['phase_3/models/gui/progress-background.bam']

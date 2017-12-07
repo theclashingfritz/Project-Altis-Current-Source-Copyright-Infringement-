@@ -1,0 +1,46 @@
+<CoordinateSystem> { Z-Up }
+
+<Comment> {
+  "bam2egg -o models/level_editor/donalds_dock_layout.egg models/level_editor/donalds_dock_layout.bam"
+}
+<Texture> 4map {
+  "/home/luke/Documents/Development/resources/models/maps/4map.rgb"
+  <Scalar> format { rgb }
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<VertexPool> donalds_dock_layout.egg {
+  <Vertex> 0 {
+    487.063995361328 -485.670013427734 0
+    <UV> { 0.641444981098175 0.469583004713058 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 1 {
+    487.063995361328 150.761001586914 0
+    <UV> { 0.641444981098175 0.999877989292145 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 2 {
+    -458.549011230469 -485.670013427734 0
+    <UV> { 0.130302995443344 0.469583004713058 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 3 {
+    -458.549011230469 150.761001586914 0
+    <UV> { 0.130302995443344 0.999877989292145 }
+    <RGBA> { 1 1 1 1 }
+  }
+}
+<Group> donalds_dock_layout {
+  <Polygon> {
+    <TRef> { 4map }
+    <VertexRef> { 0 1 2 <Ref> { donalds_dock_layout.egg } }
+  }
+  <Polygon> {
+    <TRef> { 4map }
+    <VertexRef> { 2 1 3 <Ref> { donalds_dock_layout.egg } }
+  }
+}

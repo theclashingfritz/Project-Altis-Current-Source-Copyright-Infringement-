@@ -1,0 +1,164 @@
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+Preloading suits...
+Preloading Toon heads...
+Preloading avatars...
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x7fa473b73b90>}
+__handleAvatarChooserDone: 100000002, 'Skinny Star Frazzlesong', ('vll', 'ms', 'm', 'm', (0.996094, 0.898438, 0.320312, 1.0), (1.0, 1.0, 1.0, 1.0), (0.996094, 0.898438, 0.320312, 1.0), (0.996094, 0.898438, 0.320312, 1.0), 1, 11, 1, 11, 6, 15), 2
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+0
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_4/dna/storage_TT.pdna
+Reading DNA file... phase_4/dna/storage_TT_sz.pdna
+Reading DNA file... phase_4/dna/toontown_central_sz.pdna
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+Traceback (most recent call last):
+  File "otp/distributed/ConnectionRepository_override.py", line 545, in readerPollUntilEmpty
+    while self.readerPollOnce():
+  File "otp/distributed/ConnectionRepository_override.py", line 552, in readerPollOnce
+    self.handleDatagram(self.private__di)
+  File "otp/distributed/OTPClientRepository.py", line 1855, in handleDatagram
+    self.handler(msgType, di)
+  File "toontown/hood/QuietZoneState.py", line 152, in handleWaitForQuietZoneResponse
+    base.cr.handlePlayGame(msgType, di)
+  File "otp/distributed/OTPClientRepository.py", line 1471, in handlePlayGame
+    self.handleMessageType(msgType, di)
+  File "otp/distributed/OTPClientRepository.py", line 1747, in handleMessageType
+    self.gotInterestDoneMessage(di)
+  File "otp/distributed/OTPClientRepository.py", line 1774, in gotInterestDoneMessage
+    self.handleInterestDoneMessage(di)
+  File "/usr/local/lib/python2.7/dist-packages/direct/distributed/DoInterestManager.py", line 617, in handleInterestDoneMessage
+    messenger.send(event)
+  File "/usr/local/lib/python2.7/dist-packages/direct/showbase/Messenger.py", line 326, in send
+    self.__dispatch(acceptorDict, event, sentArgs, foundWatch)
+  File "/usr/local/lib/python2.7/dist-packages/direct/showbase/Messenger.py", line 411, in __dispatch
+    method (*(extraArgs + sentArgs))
+  File "toontown/distributed/ToontownClientRepository.py", line 999, in _handleEmuSetZoneDone
+    messenger.send(event)
+  File "/usr/local/lib/python2.7/dist-packages/direct/showbase/Messenger.py", line 326, in send
+    self.__dispatch(acceptorDict, event, sentArgs, foundWatch)
+  File "/usr/local/lib/python2.7/dist-packages/direct/showbase/Messenger.py", line 411, in __dispatch
+    method (*(extraArgs + sentArgs))
+  File "toontown/hood/QuietZoneState.py", line 195, in _handleQuietZoneComplete
+    self.fsm.request('waitForZoneRedirect')
+  File "/usr/local/lib/python2.7/dist-packages/direct/fsm/ClassicFSM.py", line 281, in request
+    exitArgList)
+  File "/usr/local/lib/python2.7/dist-packages/direct/fsm/ClassicFSM.py", line 228, in __transition
+    self.__enter(aState, enterArgList)
+  File "/usr/local/lib/python2.7/dist-packages/direct/fsm/ClassicFSM.py", line 214, in __enter
+    aState.enter(argList)
+  File "/usr/local/lib/python2.7/dist-packages/direct/fsm/State.py", line 202, in enter
+    self.__enterFunc(*argList)
+  File "toontown/hood/QuietZoneState.py", line 236, in enterWaitForZoneRedirect
+    self.fsm.request('waitForSetZoneResponse')
+  File "/usr/local/lib/python2.7/dist-packages/direct/fsm/ClassicFSM.py", line 281, in request
+    exitArgList)
+  File "/usr/local/lib/python2.7/dist-packages/direct/fsm/ClassicFSM.py", line 228, in __transition
+    self.__enter(aState, enterArgList)
+  File "/usr/local/lib/python2.7/dist-packages/direct/fsm/ClassicFSM.py", line 214, in __enter
+    aState.enter(argList)
+  File "/usr/local/lib/python2.7/dist-packages/direct/fsm/State.py", line 202, in enter
+    self.__enterFunc(*argList)
+  File "toontown/hood/QuietZoneState.py", line 255, in enterWaitForSetZoneResponse
+    messenger.send(self.getEnterWaitForSetZoneResponseMsg(), [self._requestStatus])
+  File "/usr/local/lib/python2.7/dist-packages/direct/showbase/Messenger.py", line 326, in send
+    self.__dispatch(acceptorDict, event, sentArgs, foundWatch)
+  File "/usr/local/lib/python2.7/dist-packages/direct/showbase/Messenger.py", line 411, in __dispatch
+    method (*(extraArgs + sentArgs))
+  File "toontown/hood/Hood.py", line 173, in handleWaitForSetZoneResponse
+    self.loadLoader(requestStatus)
+  File "toontown/hood/ToonHood.py", line 81, in loadLoader
+    self.loader.load(requestStatus['zoneId'])
+  File "toontown/town/TTTownLoader.py", line 15, in load
+    TownLoader.TownLoader.load(self, zoneId)
+  File "toontown/town/TownLoader.py", line 58, in load
+    self.townBattle.load()
+  File "toontown/town/TownBattle.py", line 169, in load
+    self.SOSPetInfoPanel.load()
+  File "toontown/town/TownBattleSOSPetInfoPanel.py", line 62, in load
+    localAvatar.chatMgr.chatInputSpeedChat.whisperAvatarId = None
+AttributeError: 'LocalToon' object has no attribute 'chatMgr'
+Traceback (most recent call last):
+  File "otp/otpbase/OTPBase.py", line 235, in run
+    taskMgr.run()
+  File "/usr/local/lib/python2.7/dist-packages/direct/task/Task.py", line 517, in run
+    self.step()
+  File "/usr/local/lib/python2.7/dist-packages/direct/task/Task.py", line 471, in step
+    self.mgr.poll()
+  File "otp/distributed/ConnectionRepository_override.py", line 545, in readerPollUntilEmpty
+    while self.readerPollOnce():
+  File "otp/distributed/ConnectionRepository_override.py", line 552, in readerPollOnce
+    self.handleDatagram(self.private__di)
+  File "otp/distributed/OTPClientRepository.py", line 1855, in handleDatagram
+    self.handler(msgType, di)
+  File "toontown/hood/QuietZoneState.py", line 152, in handleWaitForQuietZoneResponse
+    base.cr.handlePlayGame(msgType, di)
+  File "otp/distributed/OTPClientRepository.py", line 1471, in handlePlayGame
+    self.handleMessageType(msgType, di)
+  File "otp/distributed/OTPClientRepository.py", line 1747, in handleMessageType
+    self.gotInterestDoneMessage(di)
+  File "otp/distributed/OTPClientRepository.py", line 1774, in gotInterestDoneMessage
+    self.handleInterestDoneMessage(di)
+  File "/usr/local/lib/python2.7/dist-packages/direct/distributed/DoInterestManager.py", line 617, in handleInterestDoneMessage
+    messenger.send(event)
+  File "/usr/local/lib/python2.7/dist-packages/direct/showbase/Messenger.py", line 326, in send
+    self.__dispatch(acceptorDict, event, sentArgs, foundWatch)
+  File "/usr/local/lib/python2.7/dist-packages/direct/showbase/Messenger.py", line 411, in __dispatch
+    method (*(extraArgs + sentArgs))
+  File "toontown/distributed/ToontownClientRepository.py", line 999, in _handleEmuSetZoneDone
+    messenger.send(event)
+  File "/usr/local/lib/python2.7/dist-packages/direct/showbase/Messenger.py", line 326, in send
+    self.__dispatch(acceptorDict, event, sentArgs, foundWatch)
+  File "/usr/local/lib/python2.7/dist-packages/direct/showbase/Messenger.py", line 411, in __dispatch
+    method (*(extraArgs + sentArgs))
+  File "toontown/hood/QuietZoneState.py", line 195, in _handleQuietZoneComplete
+    self.fsm.request('waitForZoneRedirect')
+  File "/usr/local/lib/python2.7/dist-packages/direct/fsm/ClassicFSM.py", line 281, in request
+    exitArgList)
+  File "/usr/local/lib/python2.7/dist-packages/direct/fsm/ClassicFSM.py", line 228, in __transition
+    self.__enter(aState, enterArgList)
+  File "/usr/local/lib/python2.7/dist-packages/direct/fsm/ClassicFSM.py", line 214, in __enter
+    aState.enter(argList)
+  File "/usr/local/lib/python2.7/dist-packages/direct/fsm/State.py", line 202, in enter
+    self.__enterFunc(*argList)
+  File "toontown/hood/QuietZoneState.py", line 236, in enterWaitForZoneRedirect
+    self.fsm.request('waitForSetZoneResponse')
+  File "/usr/local/lib/python2.7/dist-packages/direct/fsm/ClassicFSM.py", line 281, in request
+    exitArgList)
+  File "/usr/local/lib/python2.7/dist-packages/direct/fsm/ClassicFSM.py", line 228, in __transition
+    self.__enter(aState, enterArgList)
+  File "/usr/local/lib/python2.7/dist-packages/direct/fsm/ClassicFSM.py", line 214, in __enter
+    aState.enter(argList)
+  File "/usr/local/lib/python2.7/dist-packages/direct/fsm/State.py", line 202, in enter
+    self.__enterFunc(*argList)
+  File "toontown/hood/QuietZoneState.py", line 255, in enterWaitForSetZoneResponse
+    messenger.send(self.getEnterWaitForSetZoneResponseMsg(), [self._requestStatus])
+  File "/usr/local/lib/python2.7/dist-packages/direct/showbase/Messenger.py", line 326, in send
+    self.__dispatch(acceptorDict, event, sentArgs, foundWatch)
+  File "/usr/local/lib/python2.7/dist-packages/direct/showbase/Messenger.py", line 411, in __dispatch
+    method (*(extraArgs + sentArgs))
+  File "toontown/hood/Hood.py", line 173, in handleWaitForSetZoneResponse
+    self.loadLoader(requestStatus)
+  File "toontown/hood/ToonHood.py", line 81, in loadLoader
+    self.loader.load(requestStatus['zoneId'])
+  File "toontown/town/TTTownLoader.py", line 15, in load
+    TownLoader.TownLoader.load(self, zoneId)
+  File "toontown/town/TownLoader.py", line 58, in load
+    self.townBattle.load()
+  File "toontown/town/TownBattle.py", line 169, in load
+    self.SOSPetInfoPanel.load()
+  File "toontown/town/TownBattleSOSPetInfoPanel.py", line 62, in load
+    localAvatar.chatMgr.chatInputSpeedChat.whisperAvatarId = None
+AttributeError: 'LocalToon' object has no attribute 'chatMgr'

@@ -1,0 +1,47 @@
+<CoordinateSystem> { Z-Up }
+
+<Comment> {
+  "flt2egg -ps keep -o built/models/gui/dialog_box_gui.egg dmodels/src/gui/dialog_box_gui.flt"
+}
+<Texture> 0 {
+  "../maps/general_panel.rgba"
+  <Scalar> wrap { repeat }
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { nearest }
+  <Scalar> magfilter { nearest }
+  <Scalar> envtype { modulate }
+}
+<VertexPool> vpool {
+  <Vertex> 0 {
+    -0.577177 0 0.554307
+    <UV> { 0 1 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 1 {
+    0.534984 0 0.554307
+    <UV> { 1 1 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 2 {
+    0.534984 0 -0.631772
+    <UV> { 1 0 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 3 {
+    -0.577177 0 -0.631772
+    <UV> { 0 0 }
+    <RGBA> { 1 1 1 1 }
+  }
+}
+<Group> g1 {
+  <Group> g2 {
+    <Group> o1 {
+      <Polygon> {
+        <TRef> { 0 }
+        <BFace> { 1 }
+        <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+      }
+    }
+  }
+}

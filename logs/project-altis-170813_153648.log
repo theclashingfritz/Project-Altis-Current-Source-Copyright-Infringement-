@@ -1,0 +1,29 @@
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+Preloading suits...
+Preloading Toon heads...
+Preloading avatars...
+Traceback (most recent call last):
+  File "toontown/toon/ToonHead.py", line 80, in preload
+    PreloadHeads['phase_3' + fileRoot + '1000'] = loader.loadModel('phase_3' + fileRoot + '1000')
+  File "toontown/toonbase/ToontownLoader.py", line 70, in loadModel
+    ret = nLoader.Loader.loadModel(self, *args, **kw)
+  File "/usr/share/panda3d/direct/showbase/Loader.py", line 170, in loadModel
+    raise IOError(message)
+IOError: Could not load model file(s): ['phase_3/models/char/alligator-heads-1000']
+Traceback (most recent call last):
+  File "otp/otpbase/OTPBase.py", line 235, in run
+    taskMgr.run()
+  File "/usr/share/panda3d/direct/task/Task.py", line 517, in run
+    self.step()
+  File "/usr/share/panda3d/direct/task/Task.py", line 471, in step
+    self.mgr.poll()
+  File "toontown/toon/ToonHead.py", line 80, in preload
+    PreloadHeads['phase_3' + fileRoot + '1000'] = loader.loadModel('phase_3' + fileRoot + '1000')
+  File "toontown/toonbase/ToontownLoader.py", line 70, in loadModel
+    ret = nLoader.Loader.loadModel(self, *args, **kw)
+  File "/usr/share/panda3d/direct/showbase/Loader.py", line 170, in loadModel
+    raise IOError(message)
+IOError: Could not load model file(s): ['phase_3/models/char/alligator-heads-1000']

@@ -1,0 +1,175 @@
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+Preloading suits...
+Preloading Toon heads...
+Preloading avatars...
+{402000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x7f8c22c0f368>, 407000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x7f8c22c0f248>, 409000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x7f8c22c0f680>, 410000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x7f8c23158b00>, 404000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x7f8c22c0f5f0>, 406000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x7f8c22c0f560>, 408000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x7f8c22c0f440>, 401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x7f8c22c0f200>, 403000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x7f8c22c0f290>, 405000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x7f8c22c0f4d0>}
+__handleAvatarChooserDone: 100000127, 'Dubito', ('xll', 'ls', 'l', 'm', (0.3607843137254902, 0.4196078431372549, 0.7529411764705882, 1.0), (1.0, 1.0, 1.0, 1.0), (0.3607843137254902, 0.4196078431372549, 0.7529411764705882, 1.0), (0.3607843137254902, 0.4196078431372549, 0.7529411764705882, 1.0), 116, 4, 103, 6, 58, 5), 0
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_6/dna/storage_DD.pdna
+Reading DNA file... phase_6/dna/storage_DD_sz.pdna
+Reading DNA file... phase_6/dna/donalds_dock_sz.pdna
+DNALandmarkBuilding sb8:toon_landmark_DD_clothes_shop_DNARoot did not find **/*suit_building_origin
+DNALandmarkBuilding sb7:toon_landmark_hqDD_SZ_DNARoot did not find **/*suit_building_origin
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+Regular-->day
+69
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_5.5/dna/storage_estate.pdna
+Reading DNA file... phase_5.5/dna/estate_1.pdna
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_6/dna/storage_MM.pdna
+Reading DNA file... phase_6/dna/storage_MM_sz.pdna
+Reading DNA file... phase_6/dna/minnies_melody_land_sz.pdna
+DNALandmarkBuilding sb4:toon_landmark_hqMM_DNARoot did not find **/*suit_building_origin
+DNALandmarkBuilding sb6:toon_landmark_MM_clothes_shop_DNARoot did not find **/*suit_building_origin
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+NodePath.iPosHpr() is deprecated.
+Regular-->mml
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+frame rate: 59.5 fps|0.005d|2 avs||326|326||0x0000|0x0000|0.0MB|0.0MB|15900.4MB|0|posix.-1.-1.-1|0.000,0.000|0,8 cpus|OpenGL
+:08-13-2017 15:59:49: receiveWhisperTalk: 100010785, 'Boots', 0, None, 100000127, 'Dubito', 'Good job daddy dubito you fixed it!'
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_6/dna/storage_MM_town.pdna
+Reading DNA file... phase_6/dna/minnies_melody_land_4300.pdna
+DNALandmarkBuilding sb73:toon_landmark_hqMM_DNARoot did not find **/*suit_building_origin
+Regular-->mml
+Battle Event localtoon-battle-event-3
+frame rate: 58.8 fps|0.012d|14 avs||626|626||0x0000|0x0000|0.0MB|0.0MB|15900.4MB|0|posix.-1.-1.-1|0.000,0.000|0,8 cpus|OpenGL
+:08-13-2017 16:04:54: receiveWhisperTalk: 100000066, 'Sketched', 0, None, 100000127, 'Dubito', 'Hey dad'
+:08-13-2017 16:05:05: receiveWhisperTalk: 100000066, 'Sketched', 0, None, 100000127, 'Dubito', "I'm in a building"
+Battle Event localtoon-battle-event-9
+:08-13-2017 16:05:19: receiveWhisperTalk: 100000066, 'Sketched', 0, None, 100000127, 'Dubito', "I'm with guardian"
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_6/dna/storage_MM_town.pdna
+Reading DNA file... phase_6/dna/minnies_melody_land_4400.pdna
+Regular-->mml
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+frame rate: 45.4 fps|0.005d|131 avs||926|926||0x0000|0x0000|0.0MB|0.0MB|15900.4MB|0|posix.-1.-1.-1|0.000,0.000|0,8 cpus|OpenGL
+spec = {'parentEntId': 10000, 'pos': LPoint3f(0, 0, 0)}
+h = None
+Battle Event localtoon-battle-event-15
+frame rate: 59.6 fps|0.003d|163 avs||1226|1226||0x0000|0x0000|0.0MB|0.0MB|15900.4MB|0|posix.-1.-1.-1|0.000,0.000|0,8 cpus|OpenGL
+spec = {'parentEntId': 10013, 'pos': LPoint3f(0, 0, 0)}
+h = None
+Battle Event localtoon-battle-event-21
+spec = {'parentEntId': 10040, 'pos': LPoint3f(0, 0, 0)}
+h = None
+Battle Event localtoon-battle-event-27
+### newVec3 = LVector3f(2, 6.29999, 1.5)
+### newVec3 = LVector3f(2, 6.29999, 0)
+### newVec3 = LVector3f(2, 6.29999, 0.375)
+### newVec3 = LVector3f(2, 6.29999, 0)
+frame rate: 59.7 fps|0.002d|163 avs||1526|1526||0x0000|0x0000|0.0MB|0.0MB|15900.4MB|0|posix.-1.-1.-1|0.000,0.000|0,8 cpus|OpenGL
+spec = {'parentEntId': 10005, 'pos': LPoint3f(0, 0, 0)}
+h = None
+Battle Event localtoon-battle-event-33
+spec = {'parentEntId': 10002, 'pos': LPoint3f(0, 0, 0)}
+h = None
+Battle Event localtoon-battle-event-39
+spec = {'parentEntId': 10000, 'pos': LPoint3f(0, 0, 0)}
+h = None
+Battle Event localtoon-battle-event-45
+frame rate: 59.4 fps|0.006d|164 avs||1826|1827||0x0000|0x0000|0.0MB|0.0MB|15900.4MB|0|posix.-1.-1.-1|0.000,0.000|0,8 cpus|OpenGL
+spec = {'parentEntId': 10001, 'pos': LPoint3f(0, 0, 0)}
+h = None
+Battle Event localtoon-battle-event-51
+spec = {'parentEntId': 10005, 'pos': LPoint3f(0, 0, 0)}
+h = None
+Battle Event localtoon-battle-event-57
+:08-13-2017 16:27:56: receiveWhisperTalk: 100000167, 'Barks', 0, None, 100000127, 'Dubito', 'having fun there?'
+frame rate: 50.1 fps|0.004d|182 avs||2126|2127||0x0000|0x0000|0.0MB|0.0MB|15900.4MB|0|posix.-1.-1.-1|0.000,0.000|0,8 cpus|OpenGL
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Battle Event localtoon-battle-event-63
+[49, 49, 49, 49, 49]
+frame rate: 58.3 fps|0.003d|212 avs||2426|2427||0x0000|0x0000|0.0MB|0.0MB|15900.4MB|0|posix.-1.-1.-1|0.000,0.000|0,8 cpus|OpenGL
+Battle Event localtoon-battle-event-69
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+Traceback (most recent call last):
+  File "otp/distributed/ConnectionRepository_override.py", line 545, in readerPollUntilEmpty
+    while self.readerPollOnce():
+  File "otp/distributed/ConnectionRepository_override.py", line 552, in readerPollOnce
+    self.handleDatagram(self.private__di)
+  File "otp/distributed/OTPClientRepository.py", line 1855, in handleDatagram
+    self.handler(msgType, di)
+  File "toontown/distributed/ToontownClientRepository.py", line 586, in handleCloseShard
+    self.handleMessageType(msgType, di)
+  File "otp/distributed/OTPClientRepository.py", line 1743, in handleMessageType
+    self.handleDisable(di)
+  File "otp/distributed/OTPClientRepository.py", line 2023, in handleDisable
+    self.disableDoId(doId, ownerView)
+  File "otp/distributed/ClientRepositoryBaseOR.py", line 374, in disableDoId
+    cached = cache.cache(distObj)
+  File "/usr/share/panda3d/direct/distributed/CRCache.py", line 57, in cache
+    assert self.checkCache()
+  File "/usr/share/panda3d/direct/distributed/CRCache.py", line 128, in checkCache
+    assert not obj.isEmpty() and obj.getTopNode() != render.node()
+AssertionError
+Traceback (most recent call last):
+  File "otp/otpbase/OTPBase.py", line 235, in run
+    taskMgr.run()
+  File "/usr/share/panda3d/direct/task/Task.py", line 517, in run
+    self.step()
+  File "/usr/share/panda3d/direct/task/Task.py", line 471, in step
+    self.mgr.poll()
+  File "otp/distributed/ConnectionRepository_override.py", line 545, in readerPollUntilEmpty
+    while self.readerPollOnce():
+  File "otp/distributed/ConnectionRepository_override.py", line 552, in readerPollOnce
+    self.handleDatagram(self.private__di)
+  File "otp/distributed/OTPClientRepository.py", line 1855, in handleDatagram
+    self.handler(msgType, di)
+  File "toontown/distributed/ToontownClientRepository.py", line 586, in handleCloseShard
+    self.handleMessageType(msgType, di)
+  File "otp/distributed/OTPClientRepository.py", line 1743, in handleMessageType
+    self.handleDisable(di)
+  File "otp/distributed/OTPClientRepository.py", line 2023, in handleDisable
+    self.disableDoId(doId, ownerView)
+  File "otp/distributed/ClientRepositoryBaseOR.py", line 374, in disableDoId
+    cached = cache.cache(distObj)
+  File "/usr/share/panda3d/direct/distributed/CRCache.py", line 57, in cache
+    assert self.checkCache()
+  File "/usr/share/panda3d/direct/distributed/CRCache.py", line 128, in checkCache
+    assert not obj.isEmpty() and obj.getTopNode() != render.node()
+AssertionError

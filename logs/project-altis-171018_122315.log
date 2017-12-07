@@ -1,0 +1,20 @@
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+OTPLocalizer: Running in language: english
+from otp.otpbase.OTPLocalizerEnglish import *
+Preloading suits...
+Preloading Toon heads...
+Preloading avatars...
+* interrupt by keyboard
+** waiting for end of frame before interrupting...
+*** allowing mid-frame keyboard interrupt.
+Traceback (most recent call last):
+  File "toontown/toon/ToonHead.py", line 80, in preload
+    PreloadHeads['phase_3' + fileRoot + '1000'] = loader.loadModel('phase_3' + fileRoot + '1000')
+  File "toontown/toonbase/ToontownLoader.py", line 70, in loadModel
+    ret = nLoader.Loader.loadModel(self, *args, **kw)
+  File "/usr/local/lib/python2.7/dist-packages/direct/showbase/Loader.py", line 160, in loadModel
+    node = self.loader.loadSync(Filename(modelPath), loaderOptions)
+  File "/usr/local/lib/python2.7/dist-packages/direct/task/Task.py", line 164, in invokeDefaultHandler
+    raise KeyboardInterrupt
+KeyboardInterrupt
